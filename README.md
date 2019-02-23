@@ -1,11 +1,11 @@
-# dd_lighthouse_custom_agent_check
+# dd lighthouse custom agent check
 a google chrome lighthouse custom agent check for datadog
 
 ## Overview
 
-Get metrics from [Google Chrome Lighthouse][1] as a custom agent check in your (Datadog)[https://www.datadoghq.com/] app in real time to:
+Get metrics from [Google Chrome Lighthouse][1] as a custom agent check in your [Datadog](https://www.datadoghq.com/) app in real time to:
 * Visualize and monitor Lighthouse stats
-* Track and Audit scores for Accessibility, Best Practices, Performance, PWA, SEO, and more (eventually)
+* Track and Audit scores for yours websites Accessibility, Best Practices, Performance, PWA, SEO, and more (eventually)
 
 ![example lighthouse dashboard](./example_lighthouse_dd.png)
 
