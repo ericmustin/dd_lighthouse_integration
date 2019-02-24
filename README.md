@@ -70,7 +70,7 @@ The Lighthouse custom agent check does not include any events.
 The Light custom agent check does not include any service checks.
 
 ## Troubleshooting
-Honestly good luck, probably not production ready at this time, ping me if this blows up I can try to help, or feel free to make a PR
+This is not production ready at this time, and not meant to be used in production at this time.
 
 [1]: https://developers.google.com/web/tools/lighthouse/
 [2]: https://docs.datadoghq.com/developers/write_agent_check/?tab=agentv6#should-you-write-an-agent-check-or-an-integration

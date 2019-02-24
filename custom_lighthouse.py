@@ -21,7 +21,7 @@ class CustomLighthouse(AgentCheck):
     
     # check for error since we have raise_on_empty_output set to False
     if exit_code > 0:
-      raise Exception(json_string, error_message, exit_code)    
+      raise Exception(json_string, error_message, exit_code)
 
     try:
       data = json.loads(json_string)
@@ -32,6 +32,7 @@ class CustomLighthouse(AgentCheck):
       score_seo = data["categories"]["seo"]["score"] * 100
     except Exception:
       self.log.warn("lighthouse response JSON structure different than expected")
+      raise Exception(json_string, error_message, exit_code)
 
     # add tags
     try:
